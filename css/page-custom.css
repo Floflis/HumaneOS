@@ -1,0 +1,45 @@
+body {
+font-family:'Cabin'!important;
+background:#e3e2e2!important
+}
+
+.header, header {
+    background: #bdc9cc!important;
+}
+
+.logo,logo {
+    background: url(../icon.ico) no-repeat no-repeat 3px 0px;
+    background-size: 38px;
+    color: #000!important;
+    padding: 0 0px 9px 52px;
+    line-height: 36px;
+}
+
+::selection {
+    background: #555555!important;
+    color: #bdc9cc!important;
+}
+
+.h1, h1 {
+    color: #06c002!important;
+}
+
+.navmenu {
+    color: #00964a!important;
+}
+.navmenu ul > li:hover {
+    background: #00964a!important;
+}
+
+ul.tabs{border-bottom:1px solid #00964a}
+ul.tabs li a:active{color:#00964a80;border-bottom:4px solid #00964a80}
+ul.tabs li.current a{color:#00964a;border-bottom:4px solid #00964a}
+
+button.color{background:#00964a;color:#fff;font-weight:bold;padding:10px;font-size:16px}
+button.color:hover{background:#fff;color:#00964a}
+
+.btn-primary {
+    background-color:#00964a!important;
+}
+
+.footer,footer{background:#555555}
